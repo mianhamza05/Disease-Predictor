@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@400;700;800&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0a0e1a;
+  color: #e4e9f0;
+  font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  line-height: 1.6;
+}
+
+:root {
+  --bg: #0a0e1a;
+  --bg-card: #151b2b;
+  --text: #e4e9f0;
+  --text-muted: #8899aa;
+  --border: #2d3e52;
+  --accent: #63b3ed;
+  --accent2: #4299e1;
+  --green: #68d391;
+  --red: #fc8181;
+  --radius: 12px;
+  --radius-sm: 8px;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
